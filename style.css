@@ -46,7 +46,7 @@ body {
     color: rgba(255, 255, 255, 0.8);
 }
 
-/* ---------- Inputs ---------- */
+/* Inputs */
 .input-group {
     position: relative;
     width: 100%;
@@ -106,7 +106,7 @@ body {
     margin-top: -6px;
 }
 
-/* ---------- Forgot password (right aligned) ---------- */
+/* Forgot password (right aligned) */
 .forget {
     width: 100%;
     display: flex;
@@ -124,7 +124,7 @@ body {
     color: white;
 }
 
-/* ---------- Button ---------- */
+/* Button */
 .button {
     background: transparent;
     width: 100%;
@@ -190,7 +190,7 @@ body {
     background: rgba(255, 255, 255, 0.18);
 }
 
-/* ---------- Divider ---------- */
+/* Divider */
 .addition {
     width: 100%;
     display: flex;
@@ -209,7 +209,7 @@ body {
     background: rgba(255, 255, 255, 0.4);
 }
 
-/* ---------- Social buttons ---------- */
+/* Social buttons */
 .addition2 {
     display: flex;
     gap: 12px;
@@ -235,7 +235,7 @@ body {
     background: rgba(255, 255, 255, 0.28);
 }
 
-/* ---------- Sign up ---------- */
+/* Sign up */
 .signup {
     font-size: 13px;
     color: rgba(255, 255, 255, 0.85);
@@ -252,7 +252,7 @@ body {
     text-decoration: underline;
 }
 
-/* ---------- Keyboard focus + reduced motion ---------- */
+/* Keyboard focus + reduced motion */
 a:focus-visible,
 button:focus-visible {
     outline: 2px solid white;
