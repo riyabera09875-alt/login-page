@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form class="login-box">
+            <div class="heading border">
+                <h1>Welcome back</h1>
+                <p>Sign in to continue</p>
+            </div>
+            <div class="input-group border">
+                <input type="email" id="username" name="username" required>
+            </div>
+            <div class="input-group border">
+                <input type="password" id="password" name="password" required>
+                <button type="button" class="toggle-pass" id="togglePass" aria-label="Show password">
+                <i class="fa-solid fa-eye"></i>
+                </button>
+            </div>
+            <p class="error" id="formError" role="alert"></p>
+            <div class="forget">
+                <a href="#">Forget password?</a>
+            </div>
+            <button type="submit" class="button gradient" id="loginBtn">
+                <span id="btnText">Log in</span>
+                <i class="fa-solid fa-arrow-right" id="btnIcon"></i>
+            </button>
+            <div class="addition">
+                <p>or continue with</p>
+            </div>
+            <div class="addition2">
+                <a href="#"><i class="fa-brands fa-google"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <p class="signup">New here? <a href="#">Create an account</a></p>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
